@@ -1,0 +1,23 @@
+.convert__area {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+	backdrop-filter: blur(10px) brightness(1.25);
+	border: 2px solid rgba(255, 255, 255, 0.12);
+	border-radius: 15px;
+	box-shadow: 0px 1px 5px #00000099;
+	transition: all 0.3s ease;
+}
+
+.drop__area {
+	border-width: 2px;
+	border-style: dashed;
+	transition: opacity 1.3s ease, border-color 0.3s ease;
+}
+
+.drop__area:hover {
+	cursor: pointer;
+}

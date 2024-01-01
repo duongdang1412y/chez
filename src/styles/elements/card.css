@@ -1,0 +1,12 @@
+/* Card styles */
+.card {
+	user-select: none;
+	backdrop-filter: blur(50px);
+	transition: all 0.3s ease;
+	box-shadow: 0px 1px 5px #00000099;
+}
+
+/* Hover effect */
+.card:hover {
+	box-shadow: 0px 5px 20px 5px #00000044;
+}

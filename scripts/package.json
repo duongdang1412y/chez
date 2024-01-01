@@ -1,0 +1,7 @@
+{
+	"private": true,
+	"dependencies": {
+		"minify": "^11.0.1",
+		"uglify-js": "^3.17.4"
+	}
+}
